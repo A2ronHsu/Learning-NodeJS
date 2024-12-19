@@ -10,7 +10,7 @@ const text = `
 </body>
 </html>
 <!-- replaced from njs2c-->
-`
+`;
 
 fs.writeFile('demofile1.html', text, (err)=>{
    if (err) throw err;
