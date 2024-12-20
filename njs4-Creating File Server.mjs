@@ -2,8 +2,6 @@ import http from 'http';
 import fs from 'fs';
 import url from 'url';
 
-let winter;
-let summer;
 
 http.createServer((req, res)=>{
    const q = url.parse(req.url, true);
